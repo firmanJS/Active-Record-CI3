@@ -1,0 +1,8 @@
+database : dbkampus
+
+CREATE TABLE `belajar` (
+  `id` int(50) NOT NULL,
+  `nama` text NOT NULL,
+  `email` text NOT NULL,
+  `alamat` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
